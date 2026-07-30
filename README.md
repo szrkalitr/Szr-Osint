@@ -46,7 +46,7 @@ python szr-osint.py -u hedefkullanici -e hedef@mail.com
 
 Kullanıcı adı + telefon
 
-python szr-osint.py -u hedefkullanici -p +905551234567
+python szr-osint.py -u hedefkullanici -p +9055555551551
 
 Her şeyi tara
 
@@ -58,7 +58,7 @@ python szr-osint.py \
 ---
 
 ⚙️ Parametreler
-
+"""text
 Parametre| Açıklama
 "-u"| Hedef kullanıcı adı
 "-e"| Hedef e-posta adresi
@@ -68,26 +68,26 @@ Parametre| Açıklama
 "--no-scraper"| Profil scraping sistemini kapat
 "--concurrency"| Aynı anda gönderilecek istek sayısı
 "--rate"| Saniye başına maksimum istek
-
+"""
 ---
 
 🧪 Örnekler
 
 Mail üret
 
-python szr-osint.py -u semih --generate-emails
+python szr-osint.py -u sezar --generate-emails
 
 Servis taraması
 
-python szr-osint.py -u semih -e semih@mail.com --scan-services
+python szr-osint.py -u sezar -e sezar@mail.com --scan-services
 
 Scraper kapalı çalıştır
 
-python szr-osint.py -u semih --no-scraper
+python szr-osint.py -u sezar --no-scraper
 
 Hızlı tarama
 
-python szr-osint.py -u semih --concurrency 50 --rate 25
+python szr-osint.py -u sezar  --concurrency 50 --rate 25
 
 ---
 
@@ -117,9 +117,7 @@ SZR-OSINT
 
 Bu araç büyü yapmak için değil.
 
-Veri toplamak, hesap ilişkilendirmek ve OSINT araştırmalarını hızlandırmak için yazıldı.
-
-Çıkan her sonuç doğru olacak diye bir şey yok, insan gibi kontrol etmeyi unutma.
+Veri toplamak, hesap ilişkilendirmek ve OSINT araştırmalarını hızlandırmak için yazıldı
 
 ---
 
